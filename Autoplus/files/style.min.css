@@ -1,0 +1,558 @@
+body,html {
+    height: 100%
+}
+
+.p-l-0,.p-s-0 {
+    padding-left: 0!important
+}
+
+.p-r-0,.p-s-0 {
+    padding-right: 0!important
+}
+
+.checkbox-cols,.form-group label,.login-main>dt,.menu>dl>dt,.table>thead>tr>th label {
+    font-weight: 400
+}
+
+body {
+    line-height: 1;
+    font-size: 14px;
+    font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust: 100%;
+    background: #e7e8eb
+}
+
+.datepicker table td,.datepicker table th {
+    font-family: 'Open Sans'!important
+}
+
+.m-r-5 {
+    margin-right: 5px!important
+}
+
+.m-r-10 {
+    margin-right: 10px!important
+}
+
+.m-r-20 {
+    margin-right: 20px!important
+}
+
+.m-l-5 {
+    margin-left: 5px!important
+}
+
+.m-l-10 {
+    margin-left: 10px!important
+}
+
+.m-l-20 {
+    margin-left: 20px!important
+}
+
+.m-b-5 {
+    margin-bottom: 5px!important
+}
+
+.m-b-10 {
+    margin-bottom: 10px!important
+}
+
+.m-b-20 {
+    margin-bottom: 20px!important
+}
+
+.m-t-5 {
+    margin-top: 5px!important
+}
+
+.m-t-10 {
+    margin-top: 10px!important
+}
+
+.m-t-20 {
+    margin-top: 20px!important
+}
+
+.text-left {
+    text-align: left!important
+}
+
+.text-right {
+    text-align: right!important
+}
+
+.text-center {
+    text-align: center!important
+}
+
+.color-light {
+    color: #999
+}
+
+.text-greener {
+    color: #44b549
+}
+
+.btn-default {
+    color: #999
+}
+
+.btn-wide {
+    width: 125px
+}
+
+.btn-link {
+    line-height: 100%;
+    padding: 0 5px;
+    color: #44b549!important
+}
+
+.btn-link:active,.btn-link:focus,.btn-link:hover {
+    color: #2c9a31
+}
+
+.input-short {
+    width: 150px!important
+}
+
+.input-wide {
+    width: 280px!important
+}
+
+.input-long {
+    width: 400px!important
+}
+
+.form-group {
+    margin-bottom: 20px
+}
+
+.form-group label {
+    padding-bottom: 5px
+}
+
+.form-inline .form-group-nospace {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle
+}
+
+.form-inline .form-group-nospace .form-group {
+    margin-left: -10px
+}
+
+.form-inline .form-group-nospace .form-group:nth-child(1) {
+    margin-left: 0
+}
+
+.form-horizontal .control-label {
+    padding-top: 10px
+}
+
+.form-inline .extra .form-group {
+    display: block;
+    margin-bottom: 20px
+}
+
+.form-inline .extra .form-control {
+    width: 100%;
+    display: block
+}
+
+.form-inline .extra .input-daterange .form-control {
+    padding: 6px
+}
+
+.control-label {
+    color: #999
+}
+
+.form-control {
+    border-radius: 0;
+    color: #999
+}
+
+.checkbox,.radio {
+    padding-left: 0
+}
+
+.input-group-addon {
+    padding: 6px;
+    border: none;
+    background: 0 0
+}
+
+.container,.head,.head-in {
+    background: #fff
+}
+
+.checkbox-cols>span {
+    padding-left: 2px;
+    line-height: 180%;
+    float: right
+}
+
+.extra-show .form-group-nospace {
+    margin-bottom: 20px
+}
+
+.extra-show .extra {
+    display: block
+}
+
+.extra-hide .extra {
+    display: none
+}
+
+.head {
+    min-width: 1200px;
+    height: 66px;
+    border-top: 5px solid #0adb75;
+    border-bottom: 1px solid #ccc
+}
+
+.head-in {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 1200px;
+    height: 100%;
+    overflow: hidden
+}
+
+.head-in>.logo {
+    width: 114px;
+    height: 28px
+}
+
+.head-in>.logo>h1 {
+    margin: 5px 0 0;
+    line-height: 100%;
+    font-size: 100%
+}
+
+.head-in>.info>ul {
+    margin: 15px 0 0
+}
+
+.head-in>.info>ul>li {
+    padding: 0 5px;
+    list-style: none;
+    float: left;
+    border-left: 1px solid #333
+}
+
+.head-in>.info>ul>li>a {
+    color: #333
+}
+
+.head-in>.info>ul>li.name {
+    border-left: none
+}
+
+.container {
+    padding: 0;
+    margin: 40px auto;
+    width: 1200px;
+    border: 1px solid #ccc
+}
+
+.container.login {
+    width: 1280px;
+    background: #fff;
+    min-height: 600px;
+    border: none;
+    margin-top: 0
+}
+
+.menu {
+    float: left;
+    width: 200px
+}
+
+.menu>dl {
+    margin-bottom: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc
+}
+
+.menu>dl>dt {
+    padding: 8px 30px;
+    color: #999
+}
+
+.menu>dl>dd>a {
+    display: block;
+    padding: 8px 30px;
+    color: #333
+}
+
+.menu>dl>dd>a:hover {
+    text-decoration: none;
+    color: #44b549
+}
+
+.menu>dl>dd>a.active {
+    background-color: #44b549;
+    color: #fff
+}
+
+.menu>dl:last-child {
+    border-bottom: none
+}
+
+.content {
+    float: right;
+    width: 998px;
+    border-left: 1px solid #ccc;
+    min-height: 800px
+}
+
+.content>.top {
+    padding: 30px;
+    border-bottom: 1px solid #ccc
+}
+
+.content>.top>h3 {
+    margin: 0;
+    font-size: 16px
+}
+
+.content>.top>.tool>a.btn-lg {
+    font-size: 16px
+}
+
+.content>.main {
+    margin: 30px 30px 60px
+}
+
+.table-wrap>.table,.table>tbody>tr>td>p:last-child {
+    margin-bottom: 0
+}
+
+.table-wrap {
+    border: 1px solid #ccc
+}
+
+.table>thead>tr>th {
+    padding: 10px 20px;
+    border-bottom-width: 1px;
+    font-weight: 400;
+    font-size: 14px;
+    white-space: nowrap
+}
+
+.table>thead>tr>th>.btn-success {
+    padding: 5px 40px
+}
+
+.table>thead>tr:nth-child(2)>th {
+    padding: 5px 20px;
+    background: #f4f5f9
+}
+
+.table>tbody>tr>td {
+    padding: 12px 20px;
+    font-size: 12px
+}
+
+.table>tbody>tr>td .v-top {
+    vertical-align: top!important
+}
+
+.table>tbody>tr>td>a {
+    color: #333;
+    font-size: 12px
+}
+
+.table .btn-link {
+    line-height: 100%;
+    padding: 0 5px;
+    color: #44b549
+}
+
+.table .btn-link:active,.table .btn-link:focus,.table .btn-link:hover {
+    color: #2c9a31
+}
+
+.page-wrap .page-info {
+    margin: 30px 0;
+    color: #999
+}
+
+.page-wrap .pagination>li>a,.page-wrap .pagination>li>span {
+    color: #999
+}
+
+.page-wrap .pagination>.active>a,.page-wrap .pagination>.active>a:focus,.page-wrap .pagination>.active>a:hover,.page-wrap .pagination>.active>span,.page-wrap .pagination>.active>span:focus,.page-wrap .pagination>.active>span:hover {
+    background-color: #44b549;
+    border-color: #ccc;
+    color: #fff
+}
+
+.search-wrap {
+    margin-bottom: 30px
+}
+
+.vline {
+    vertical-align: -1px;
+    color: #999
+}
+
+.login-wrapper {
+    position: relative;
+    min-height: 368px;
+    background: url(http://houtai.renmnet.com/statics/images/login_banner.jpg) center center no-repeat
+}
+
+.login-main {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    padding: 40px 50px;
+    width: 400px;
+    height: 308px;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333
+}
+
+.login-main>dt {
+    padding-bottom: 5px;
+    font-size: 20px
+}
+
+.login-main .form-group {
+    margin-bottom: 10px
+}
+
+.login-main .input-wrap {
+    position: relative
+}
+
+.login-main .input-wrap>.fa {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 20px;
+    color: #ccc
+}
+
+.login-main .input-wrap input.form-control {
+    padding-left: 35px;
+    height: 50px
+}
+
+.login-main .input-wrap:first-child {
+    margin-bottom: -1px
+}
+
+.login-main .btn {
+    font-size: 14px;
+    padding: 8px 40px
+}
+
+.login-info {
+    margin: 50px
+}
+
+.login-info>.list {
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+.login-info>.list>li {
+    display: inline-block;
+    width: 326px;
+    height: 274px;
+    padding: 130px 30px 30px;
+    border: 1px solid #cacaca
+}
+
+.login-info>.list>li>h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px
+}
+
+.login-info>.list>li>p {
+    text-align: left;
+    line-height: 150%;
+    color: #999
+}
+
+.login-info>.list>li:nth-child(1) {
+    background: url(http://houtai.renmnet.com/statics/images/login_icon_1.png) center 30px no-repeat
+}
+
+.login-info>.list>li:nth-child(2) {
+    margin: 0 10px;
+    background: url(http://houtai.renmnet.com/statics/images/login_icon_2.png) center 30px no-repeat
+}
+
+.login-info>.list>li:nth-child(3) {
+    background: url(http://houtai.renmnet.com/statics/images/login_icon_3.png) center 30px no-repeat
+}
+
+.datepicker .active,.datepicker .active:hover,.datepicker .selected {
+    background-image: none!important;
+    filter: none!important
+}
+
+.datepicker.dropdown-menu {
+    padding: 5px
+}
+
+.datepicker .selected {
+    background-color: #909090!important
+}
+
+.datepicker .active {
+    background-color: #4b8df8!important
+}
+
+.datepicker .active:hover {
+    background-color: #2678FC!important
+}
+
+.datepicker .input-daterange input {
+    text-align: left
+}
+
+.modal-open .datepicker {
+    z-index: 10055!important
+}
+
+.datepicker table td {
+    font-weight: 300!important
+}
+
+.datepicker table th {
+    font-weight: 400!important
+}
+
+.modal-form .modal-sm {
+    width: 340px
+}
+
+.modal-form .modal-header {
+    border-bottom: none;
+    background-color: #f4f5f9
+}
+
+.modal-form .modal-footer {
+    margin-top: 0;
+    text-align: center;
+    border-top: none;
+    background-color: #f4f5f9
+}
+
+.modal-form .btn {
+    padding: 6px 50px
+}
+
+.modal-form .close {
+    font-size: 28px
+}
